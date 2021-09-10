@@ -1,0 +1,143 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #fcfcfc
+  } 
+
+.nav {
+    background-color: rgb(182, 6, 6);
+    overflow: hidden;
+    
+}
+
+.nav a {
+    float: left;
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#head {
+    width: 260px;
+    margin-left: 55px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.topnav input[type=text] {
+    text-align: left;
+    padding: 6px;
+    border: none;
+    margin-left: 500px;
+    font-size: 17px;
+    margin-top: 100px;
+    height: 50px;
+    width: 300px;
+}
+input {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button {
+    width:150px;
+    height:60px;
+    position: relative;
+    font-size: 17px;
+    
+}
+.background {
+    background-image: url(bilderna/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 240px;
+    background-position: auto;
+    margin:auto
+    box-sizing: auto; 
+}
+#searchbtn {
+    position: center;
+    right: 100px;
+    border-radius: 5px;
+    z-index: 2px;
+    border: none;
+    height: 64px;
+    width: 93px;
+    cursor: pointer;
+    color: inherit;
+    background-color: #eeee;
+    transform: translateX(2px);
+    box-shadow: none;
+}
+#menu {
+    text-decoration: none;
+    position:absolute;
+    top: 35px;
+    right: 90px;
+    -webkit-box-shadow: 0px 11px 5px -11px rgba(0,0,0,0.87); 
+    box-shadow: 0px 11px 5px -11px rgba(0,0,0,0.87);
+    padding: 20px 15px;
+    
+      
+}
+.topbuttons {
+    display: inline;
+}
+a:link {
+    text-decoration: none;
+}
+
+#image  {
+padding: 20px;
+height: 100%;
+display: flex;
+justify-content: space-around;
+}
+
+#footer {
+    width: 260px;
+    margin-left: 25px;
+}
+
+article{
+    font-size: 19px;
+}
+
+.p2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.text{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.text-box{
+    display: block;
+    max-width: 33.3%;
+    flex: 0 0 33.3%;
+}
+
+.text-box a{
+}
+h4{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
